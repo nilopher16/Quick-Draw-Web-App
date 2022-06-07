@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(224, 181, 250);
+}
+h1{
+    color: rgb(87, 0, 81);
+    background-color: rgb(228, 214, 243);
+}
+
+#show_sketch{
+   float: right;
+}
+
+p{
+padding-top: 10px;
+font-size: 24px;
+}
+
+#score{
+    float: right;
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 5px;
+}
+
+#timer{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+}
+
+#sketch_to_be_drawn{
+    color: darkviolet;
+}
+
+canvas{
+    border:10px solid white;
+    border-radius: 15px;
+    animation-name: my_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+
+}
+
+@keyframes my_animation{
+    from{box-shadow: 2px 2px 38px grey;}
+   to{box-shadow: 2px 2px 38px whitesmoke;}
+    
+}
